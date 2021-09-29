@@ -1,0 +1,35 @@
+.border {
+	border:2px solid black;
+	width:150px;
+	padding: 0px; 
+}
+
+.bordder1 {
+	border:2px solid black;
+	width:220px;
+	padding: 0px; 
+}
+
+.divaf {
+	background:blue;
+	border:2px solid black;
+	text-align:left;
+}
+
+.eva33 {
+	background:pink;
+	border:2px solid black;
+	text-align:center;
+}
+
+ul.a{list-style-type:square;}
+ul.b{list-style-type:circle;}
+ol.c{list-style-type:decimal-leading-zero;}
+
+.color{
+	background:pink;
+}
+
+#roloc{
+	color:red;
+}

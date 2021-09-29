@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Parallax Global | About</title>
+<style> 
+input[type=button], input[type=submit], input[type=reset] {
+
+
+
+color: white;
+padding: 15px 70px;
+border-radius: 8px;
+border: 0;
+font-size:10;
+font-family:sans-serif;
+letter-spacing: 1px;
+background-color:MediumSeaGreen;
+background-size: 200% auto;
+text-align:justify;
+}
+</style>
+
+</head>
+<body>
+
+<form action="part3submit.html">
+	
+<table width=600 align=center border=2 cellspacing="0" cellpadding=18>
+<tr>
+<td>
+
+<h1 align=center> Health Product Satisfaction Survey </h1>
+<hr>
+
+<p>
+<b>Survey Number</b><br>
+</p>
+<p>
+<input type="text" name=answer3 cols="1000" rows="8" placeholder="0000" size=80 readonly>
+</p>
+<br>
+<p>
+<b>Survey date</b>
+</p>
+<p>
+<input type="date" id="date" name="date" size=30><br> <small>Date</small>
+</p>
+<br>
+<p>
+
+  <b>Health Product Name</b><br>
+</p>
+<p>
+  <input type="text" id="Health_Product_Name" name="productname" size=30><br>
+  
+
+
+</p>
+<br>
+<p>
+<b>Type of Health Product</b>
+</p>
+<p>
+
+
+<table width=500>
+	<tr>
+		<td><input type="radio" id="Pharmaceutical_products" name="product" value="Pharmaceutical_products" >
+  <label for="Pharmaceutical_products">Pharmaceutical products</label></td> <td><input type="radio" id="Supplements" name="product" value="Supplements">
+  <label for="Supplements">Supplements</label></td>
+	</tr>
+
+	<tr>
+		<td><input type="radio" id="Organic_Remedies" name="product" value="Organic_Remedies">
+  <label for="Organic_Remedies">Organic Remedies</label></td> <td><input type="radio" id="Medical_devices" name="product" value="Medical_devices">
+  <label for="Medical_devices">Medical devices</label><br></td>
+	</tr>
+
+	<tr>
+		<td><input type="radio" id="Health_and_Beauty" name="product" value="Health_and_Beauty">
+  <label for="Health_and_Beauty">Health and Beauty</label></td> <td><input type="radio" id="Sports_and_fitness" name="product" value="Sports_and_fitness">
+  <label for="Sports_and_fitness">Sports and fitness</label></td>
+	</tr>
+
+	<tr>
+		<td><input type="radio" id="Other" name="product" value="Other">
+  <label for="Other">Other</label><br></td><td></td>
+	</tr>
+		
+</table>
+
+
+
+<br>
+<p>
+<b>Health Product Description (General purpose)</b><br>
+</p>
+<p>
+<textarea name="message" cols="80" rows="8" placeholder="Type here"></textarea>
+</p>
+<br>
+<p>
+<b>How would you rate this product?</b>
+<p>
+<table border=2 width=600 align=center cellspacing="0" cellpadding=10 style="border-collapse:collapse">
+	<tr>	<td style="border-style:hidden"></td>	<td style="background-color:#CEE4FF">Not Satisfied</td><td style="background-color:#CEE4FF">Somewhat Satisfied</td><td style="background-color:#CEE4FF">Satisfied</td>	</tr>
+	
+	<tr>	<td style="background-color:#CEE4FF">Product Quality</td>		<td align="center"><input type="radio" id="Product_Quality" name="answer8" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Product_Quality1" name="answer8" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Product_Quality2" name="answer8" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Product Design</td>			<td align="center"><input type="radio" id="Product_Design" name="answer9" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Product_Design1" name="answer9" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Product_Design2" name="answer9" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Effectiveness</td>			<td align="center"><input type="radio" id="Effectiveness" name="answer10" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Effectiveness1" name="answer10" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Effectiveness2" name="answer10" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Easy to use?</td>			<td align="center"><input type="radio" id="Easy_to_use?" name="answer11" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Easy_to_use?1" name="answer11" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Easy_to_use?2" name="answer11" value="Satisfied"></td>	</tr>	
+	<tr>	<td style="background-color:#CEE4FF">Purchase experience</td>	<td align="center"><input type="radio" id="Purchase_experience" name="answer12" value="Not Satisfied"></td>
+		<td align="center"><input type="radio" id="Purchase_experience1" name="answer12" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Purchase_experience2" name="answer12" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Price(SRP)</td>				<td align="center"><input type="radio" id="Price(SRP)" name="answer13" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Price(SRP)1" name="answer13" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Price(SRP)2" name="answer13" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Result Outcome</td>			<td align="center"><input type="radio" id="Result_Outcome" name="answer14" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Result_Outcome1" name="answer14" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Result_Outcome2" name="answer14" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Instructions</td>			<td align="center"><input type="radio" id="Instructions" name="answer15" value="Not Satisfied"></td>
+		<td align="center"><input type="radio" id="Instructions1" name="answer15" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Instructions2" name="answer15" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Documentation</td>			<td align="center"><input type="radio" id="Documentation" name="answer16" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Documentation1" name="answer16" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Documentation2" name="answer16" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">After purchase support</td>	<td align="center"><input type="radio" id="After_purchase_support" name="answer17" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="After_purchase_support1" name="answer17" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="After_purchase_support2" name="answer17" value="Satisfied"></td>	</tr>
+	<tr>	<td style="background-color:#CEE4FF">Customer Service</td>		<td align="center"><input type="radio" id="Customer_Service" name="answer18" value="Not_Satisfied"></td>
+		<td align="center"><input type="radio" id="Customer_Service1" name="answer18" value="Somewhat_Satisfied"></td>
+		<td align="center"><input type="radio" id="Customer_Service2" name="answer18" value="Satisfied"></td>	</tr>	
+</table>
+<br>
+<p>
+<b>Are you going to recommend this to your friend,family, or colleagues?</b><br>
+</p>
+<p>
+<table width=500>
+	<tr><td><input type="radio" id="Definitely" name="answer1" value="Definitely">
+  <label for="Definitely">Definitely</label></td><td><input type="radio" id="Probably" name="answer1" value="Probably">
+  <label for="Probably">Probably</label></td></tr>
+	<tr><td><input type="radio" id="Not_sure" name="answer1" value="Not sure">
+  <label for="Not_sure">Not sure</label></td><td><input type="radio" id="Definitely_not" name="answer1" value="Definitely_not">
+  <label for="Definitely_not">Definitely not</label></td></tr>
+</table>
+<br>
+<p>
+<b>Are you going to buy this product again?</b><br>
+</p>
+<p>
+<table width=500>
+<tr><td><input type="radio" id="Yes" name="answer2" value="Yes">
+  <label for="Yes">Yes</label></td><td><input type="radio" id="No" name="answer2" value="No">
+  <label for="No">No</label><br></td></tr>
+<tr><td><input type="radio" id="Maybe" name="answer2" value="Maybe">
+  <label for="Maybe">Maybe</label></td><td></td></tr>
+
+</table>
+
+<br>
+<p>
+<b>How long have you been using this health product?</b><br>
+
+<p>
+<input type="text" name=answer3 size=30><br> 
+<small>Months,weeks, or days</small>
+
+</p>
+<br>
+<p>
+<b>Are you familiar with the company who created this health product?</b><br>
+</p>
+<p>
+
+<input type="radio" id="Yes1" name="answer4" value="Yes1">
+  <label for="Yes1">Yes</label><br>
+<input type="radio" id="No2" name="answer4" value="No2">
+  <label for="No2">No</label><br>
+
+</p>
+<br>
+<p>
+<b>Have you purchased any other products from this company? If yes, are you satisfied with it?</b><br>
+</p>
+<p>
+<textarea name="message" cols="80" rows="8" placeholder="Type here"></textarea>
+</p>
+<br>
+<p>
+<b>Does this product have warranty?</b><br>
+</p>
+<p>
+
+<input type="radio" id="Yes2" name="answer4" value="Yes2">
+  <label for="Yes2">Yes</label><br>
+<input type="radio" id="No7" name="answer4" value="No7">
+  <label for="No7">No</label><br>
+
+</p>
+<br>
+<p>
+<b>How much is this health product ($)?</b><br>
+</p>
+<p>
+
+<input type="text" name=answer3>
+</p>
+<br>
+<p>
+<b>How often do you use this product?</b><br>
+</p>
+<p>
+
+<table width=500>
+<tr><td><input type="radio" id="Monthly" name="answer5" value="Monthly">
+  <label for="Monthly">Monthly</label></td><td><input type="radio" id="Weekly" name="answer5" value="Weekly">
+  <label for="Weekly">Weekly</label><br></td></tr>
+<tr><td><input type="radio" id="Daily" name="answer5" value="Daily">
+  <label for="Daily">Daily</label></td><td><input type="radio" id="Rarely" name="answer5" value="Rarely">
+  <label for="Rarely">Rarely</label><br></td></tr>
+<tr><td><input type="radio" id="Never" name="answer5" value="Never">
+  <label for="Never">Never</label><br></td><td></td></tr>
+</table>
+
+
+<p>
+<b>Gender</b><br>
+
+<p>
+<input type="radio" id="Male" name="answer6" value="Male">
+  <label for="Male">Male</label><br>
+<input type="radio" id="Female" name="answer6" value="answer6">
+  <label for="Female">Female</label><br>
+
+<p>
+<b>Age Group</b><br>
+</p>
+<p>
+
+<table width=500>
+	<tr><td><input type="radio" id="0-14_years_old" name="answer7" value="0-14_years_old">
+  <label for="0-14_years_old">0-14 years old</label></td><td><input type="radio" id="15-24_years_old" name="answer7" value="15-24_years_old">
+  <label for="15-24_years_old">15-24 years old</label></td></tr>
+	<tr><td><input type="radio" id="25-54_years_old" name="answer7" value="25-54_years_old">
+  <label for="25-54_years_old">25-54 years old</label></td><td><input type="radio" id="65_years_old_and_above" name="answer7" value="65_years_old_and_above">
+  <label for="65_years_old_and_above">65 years old and above</label></td></tr>
+</table>
+
+<br>
+
+
+<p>
+<b>Participant's Phone Number</b><br>
+
+<p>
+<input type="text" name=answer3 placeholder="(000)-000-0000" size=30>
+</p>
+<br>
+<p>
+<b>Participant's Email</b><br>
+</p>
+<p>
+<input type="text" name=answer3 size=30><br>
+<small>example@example.com</small>
+</p>
+<br>
+<p>
+<b>Would it be okay if we contact you so that you can further explain your feedback about our product?</b><br>
+</p>
+<p>
+
+<input type="radio" id="Yes3" name="answer4" value="Yes3">
+  <label for="Yes3">Yes</label><br>
+<input type="radio" id="No3" name="answer4" value="No3">
+  <label for="No3">No</label><br>
+
+</p>
+<br>
+<p>
+<b>Would you like to receive updates and promotional emails from us?</b><br>
+</p>
+<p>
+
+<input type="radio" id="Yes4" name="answer4" value="Yes4">
+  <label for="Yes4">Yes</label><br>
+<input type="radio" id="No4" name="answer4" value="No4">
+  <label for="No4">No</label><br>
+
+</p>
+<hr>
+
+<p align=center> <input type="submit" value="Submit">
+</p>
+</td>
+</tr>
+</table>
+
+
+
+</form>
+
+</body>
+</html>
